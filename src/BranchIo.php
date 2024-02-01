@@ -138,7 +138,7 @@ class BranchIo
      */
     public function __get($name)
     {
-        if (in_array($name, ['url', 'app', 'credits'], true)) {
+        if (in_array($name, ['deeplink', 'app', 'credits'], true)) {
             if (isset($this->services[$name])) {
                 return $this->services[$name];
             }
