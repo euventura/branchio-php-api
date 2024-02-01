@@ -16,7 +16,7 @@ class BranchIo
     /**
      * Base API url
      */
-    const API_URL = 'https://api.branch.io';
+    const API_URL = 'https://api2.branch.io';
 
     /**
      * @var Config
